@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
+
+
+/*global css syntax*/
+html{
+  scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: ;
+   }
+header{
+    background: rgb(0,0,0);
+    /*background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(115,115,115,1) 87%, rgba(0,0,0,1) 99%);*/
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to control transparency */
+    display: flex;
+    height: 54px;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+   }
+   .mylogo{
+    font-family: 'League Spartan', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+   }
+   .pSkills{
+      font-family: 'League Spartan', sans-serif;
+       color: #ffffff;
+       
+   }
+   main{
+    background-color: #282C34;
+   }
+   .SkillsPage{
+      background-color: #21252B;
+   }
+   .iconSkills{
+      height: 50px;
+       margin: 5px;
+       cursor: pointer;
+   }
+ /*animation start*/  
+ .animate__jello{
+    font-family: 'League Spartan', sans-serif;
+    color: #ffffff;
+    
+ }
+ .loi_animated{
+    font-family: 'League Spartan', sans-serif;
+    color: #E5F3F0;
+ }
+ .ibarra_animated{
+    font-family: 'League Spartan', sans-serif;
+    color: #FDD779;
+ }
+ .animate__flash{
+    color: #ECE0C8;
+    font-family: 'League Spartan', sans-serif;
+ }
+ .animate__rubberBand{
+    font-family: 'League Spartan', sans-serif;
+    color: #F5F6F7;
+ }
+
+ 
+/*animation end*/ 
+
+.iconmenuLarge{
+        width: 25px;
+        cursor: pointer;
+        background: #ffffff;
+        border-radius:16px;
+        padding: 4px;
+}
+.reactFigmaCanva{
+   margin: 0;
+}
+
+/*accordion*/
+.accordion-section {
+   border: 1px solid #ccc;
+   margin-bottom: 10px;
+   width: 274px;
+ }
+ 
+ .accordion-header {
+   padding: 10px;
+   cursor: pointer;
+   color: #F5F6F7;
+ }
+ 
+ .accordion-content {
+   display: none;
+   padding: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #F5F6F7;
+ }
+/*end syntax of accordion*/ 
+.contactPage{
+   background: rgb(136,136,136);
+   background: linear-gradient(0deg, rgba(136,136,136,0.9801526717557252) 4%, rgba(93,93,93,1) 30%, rgba(0,0,0,1) 75%);}
+.h3getInTouch{
+   font-family: 'League Spartan', sans-serif; color: #ffffff;
+}
+
+
+/*start of contact page*/
+.ContactInput{
+   background-color: #646462;
+   border-radius: 20px;
+   border: none;
+   color: #ffffff; 
+   
+}
+.ContactInput::placeholder{
+   color: #ffffff; font-family: 'League Spartan', sans-serif; 
+}
+.textInput{background-color: #646462;
+    font-family: 'League Spartan', sans-serif;
+    color: #ffffff; 
+    border-radius: 20px;
+    margin: 10px;
+   }
+.textInput{
+   color: #ffffff;
+}      
+.submitForm{
+   background-color: #1082CF;
+   border: none;
+   padding: 15px;
+   border-radius: 20px;
+   color: #ffffff;
+   font-weight:bolder;
+   width: ;: 100px;
+}
+
+.submitForm:hover{
+   background-color: #B6E0FA;
+   color: #3f3d3d;
+}
+.sendIcon{
+   width: 25px;
+   height: 25px;
+}
+              /*start of contact page*/
+
+/*end global css syntax*/
+/* Media query for screens small less 768px */
+@media (max-width: 768px) {
+   .largeMenuBar{
+    display: none;/* Hide the element on screens small or mid less 768px */
+   }
+   header{
+    justify-content: space-around;
+    align-items: center;
+   }
+   .largeAnchor:active{
+      color: ;
+   }
+   .mylogo{
+    font-family: 'League Spartan', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+   }
+    .iconmenu{
+        width: 25px;
+        cursor: pointer;
+        background: #ffffff;
+        border-radius:16px;
+        padding: 2px;
+    }
+    .navIcon{
+        margin: 15px;
+    }
+    .dropdown-menu{
+        
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(115,115,115,1) 87%, rgba(0,0,0,1) 99%);
+    }
+    .mylogoMenu{
+        font-family: 'League Spartan', sans-serif;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    /**/
+    .animatedGreetings{
+        padding: 50px;
+        max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+        font-size: 40px;
+     }
+
+    .metaAvatar{
+        max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+        height: auto; /* Maintain the image's aspect ratio */
+        width: 100%; /* Make the image responsive by using 100% of its container's width */
+    }
+    /*Start of Skills css syntax*/
+    .SkillsPage{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .pSkills{
+      padding: 20px;
+      font-size: 30px;
+    }
+    .iconSkillsReference{
+      padding: 20px;
+      
+    }
+    .animate__icon{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .animated__SkillsRef{
+      padding-top: 30px;
+    }
+   /*end of skills page css syntax*/
+   /*start of accordion syntax*/
+   .accordion-content {
+      width: 200px;
+    }
+     /*end of accordion syntax*/
+
+     /*start of project page*/
+     .projectPage{
+      background: rgb(136,136,136);
+      background: linear-gradient(0deg, rgba(136,136,136,0.9801526717557252) 7%, rgba(93,93,93,1) 57%, rgba(0,0,0,1) 100%);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     }
+     .announcementProject{
+       color:#ffffff;
+       text-align: center;
+       font-family: 'League Spartan', sans-serif;
+     }
+     .projectMain{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+     .MaintenancePage{
+        color:#ffffff;
+       font-family: 'League Spartan', sans-serif;
+       font-size: 30px;
+       text-align: center;
+     }
+     .maintenancepng{
+         width: 150px;
+         height: 150px;
+     }
+     /*end of project page*/
+      /*start of contact page*/
+    .contactPage{
+
+    }
+    .ContactForm{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+    }
+    .ContactInput{
+      margin: 10px;
+      padding: 10px;
+    }
+    .h3getInTouch{
+      font-size: 40px;
+    }
+    .getInTouch{
+         display: flex;
+         flex-direction:column;
+         align-items: center;
+         padding:20px;
+         
+    }
+  
+    .chatIcon{
+      width: 150px;
+      height: 150px;
+    }
+      
+              /*end of contact page*/
+}
+
+  /* Media query for screens larger than 768px */
+@media (min-width: 769px) {
+    .dropdown {
+      display: none; /* Hide the element on screens larger than 768px */
+    }
+    .mylogo{
+        font-family: 'League Spartan', sans-serif;
+       }
+       
+       header{
+        justify-content: space-around;
+        align-items: center;
+        color: #ffffff;
+       }
+       .largeAnchor{
+        color: beige;
+        text-decoration: none;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 25px;
+       }
+       .largeAnchor:hover{
+        color: #FDD779;
+       }
+       .largeAnchor:active{
+        color: #ECE0C8;
+       }
+       /*home page section*/
+       .metaAvatar{
+        max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+        height: auto; /* Maintain the image's aspect ratio */
+        width: 100%; /* Make the image responsive by using 100% of its container's width */
+         }
+         .animatedGreetings{
+            padding: 50px;
+            max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+            font-size: 40px;
+         }
+         main{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100vh;
+         }
+         .iconmenuLarge{
+            width: 50px;
+            border-radius: 50px;
+            padding: 4px;
+         }
+         /*start syntax of skills page*/
+            .iconSkillsReference{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-evenly;
+               align-items: center;
+               
+            }
+            .skilsReference{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-evenly;
+               align-items: center;
+            }
+            .iconSkills{
+               width: 90px;
+               height: 90px;
+               background-color: #ffffff;
+               border-radius: 50%;
+               padding: 10px;
+            }
+            .pSkills{
+               padding: 100px;
+               display: flex;
+               font-size: 50px;
+               justify-content: center;
+            }
+            .SkillsPage{
+               height: 100vh;
+               padding: 20px;
+            }
+            .accordion-content {
+               width: 247px;
+             }
+          /*end syntax of skills page*/
+          /*start suntax of project page*/
+          .projectPage{
+            background: rgb(0,0,0);
+            background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(115,115,115,1) 83%, rgba(0,0,0,1) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          }
+          .MaintenancePage{
+            color:#ffffff;
+            font-family: 'League Spartan', sans-serif;
+            font-size: 60px;
+            
+            text-align: center;
+         }
+         .projectMain{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+         .announcementProject{
+            color:#ffffff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align:center;
+             font-size: 30px;
+             
+         }
+         .maintenancepng{
+            width: 500px;
+            height: 500px;
+         }
+            /*end syntax of project page*/
+            /*start of contact page*/
+.contactPage{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height: 100vh;
+}
+.getInTouch{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.h3getInTouch{
+   font-size: 50px;
+}
+.ContactInput
+{
+   padding: 10px;
+   margin: 10px;
+   height: 55px;
+   width: 250px;
+}
+.textInput{
+   width: 350px;
+}
+.ContactForm{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+              /*start of contact page*/
+ }
+  
